@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.parag{
+    width: 90%;
+    font-size: 20px;
+
+}
+.left img{
+    width: 60%;
+
+}
+
+#button{
+    background-color: blue;
+    border-radius: 8px;
+    padding:12px 20px ;
+    color: azure;
+    border: 0;
+    cursor:pointer;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.wtsup{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:965px) {
+   .container{
+       flex-wrap: wrap;
+   }
+   /* pour centrer l'image*/
+   .left img{
+       display:block;
+       margin: 0 auto;
+   }
+   .right h1,p{
+    text-align: center;
+   }
+
+   .buttonc{
+       display: flex;
+       justify-content: center;
+       
+   }
+    
+}
+
+
+
+  
